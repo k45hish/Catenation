@@ -1,5 +1,4 @@
-# Catenation
+# Kashish Mavani
 ```bash
-Kashish Mavani
 Catenation Training
 ```
