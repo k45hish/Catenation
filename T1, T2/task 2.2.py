@@ -3,20 +3,46 @@ x = int(input('enter number for calculation: '))
 if x==5:
     a=int(input('enter first number : '))
     b=int(input('enter second number : '))
-    print('Average: ', (a+b)/2)
+    c=(a+b)/2
+    if c<0:
+        print('Negative')
+    else:
+        print('Average: ', c)
 else:
-
-    num1 = int(input('enter the first number : '))
-    num2 = int(input('enter the second  number : '))
     if x==1:
+        num1 = int(input('enter the first number : '))
+        num2 = int(input('enter the second  number : '))
         y = num1+num2
-        print('Addition: ',y)
-    if x==2:
-       y = num1-num2
-       print('Subtractoin: ',y)
-    if x==3:
+        if y<0:
+            print('Negative')
+        else:  
+            print('Addition: ', y)
+   
+    elif x==2:
+        num1 = int(input('enter the first number : '))
+        num2 = int(input('enter the second  number : '))
+        y = num1-num2
+        if y<0:
+            print('Negative')
+        else:  
+            print('Subtraction: ', y)
+    
+    elif x==3:
+        num1 = int(input('enter the first number : '))
+        num2 = int(input('enter the second  number : '))
         y = num1/num2
-        print('Division: ', y)
-    if x==4:
+        if y<0:
+            print('Negative')
+        else:  
+            print('Division: ', y)
+    
+    elif x==4:
+        num1 = int(input('enter the first number : '))
+        num2 = int(input('enter the second  number : '))
         y = num1*num2
-        print('Multiplication :', y)
+        if y<0:
+            print('Negative')
+        else:  
+            print('Multiplication: ', y)
+    else:
+        print('please give a valid input')
