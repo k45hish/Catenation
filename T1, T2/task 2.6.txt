@@ -1,0 +1,13 @@
+1. error, x is an integer and not a list.
+
+2. 	0
+	error
+	1
+	error
+	2
+
+3. 	0
+	1
+	2
+	3
+	4
