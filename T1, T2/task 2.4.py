@@ -1,5 +1,6 @@
-i=int(input('enter a number: '))
+
 while i:
+    i=int(input('enter a number: '))
     if i<0:
         print("It's over")
         break
