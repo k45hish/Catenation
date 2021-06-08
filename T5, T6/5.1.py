@@ -1,5 +1,4 @@
 try:
-    x===1
+    ans = eval("Enter number :")
 except SyntaxError:
-    print('syntax error')
-#i'm not sure why this isnt working.
+    print("SyntaxError")
